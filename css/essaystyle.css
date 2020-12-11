@@ -26,6 +26,10 @@ main {
 header {
 	padding-top: 1em;
 }
+
+.bibliography {
+	background: #ffdd03;
+}
 	
 	/*---- INTRO ----*/
 .intro-container {
