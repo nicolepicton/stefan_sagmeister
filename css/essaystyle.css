@@ -66,6 +66,7 @@ h2 {
 	border-bottom: 3px solid;
 	border-color: #ffdd03;
 	padding-bottom: 0.2em;
+	padding-top: 70px;
 }
 
 blockquote p {
@@ -125,9 +126,6 @@ li {
 }
 
 	
-section {
-	padding-top: 70px;
-}
 
 section.conclusion {
 	margin-bottom: 3em;
