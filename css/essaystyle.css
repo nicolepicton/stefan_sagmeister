@@ -11,7 +11,7 @@
 	/*------ MAIN STYLING ------*/
 body {
 		width: 100%;
-		max-width: 780px;
+		
 		margin: auto;
 		background: #f4f4f4;
 		color: #333;
@@ -19,6 +19,9 @@ body {
 		padding-top: 70px;
 	}
 	
+main {
+	max-width: 780px;
+}
 	
 	/*---- INTRO ----*/
 .intro-container {
@@ -39,8 +42,8 @@ body {
 	font-style: normal;
 	text-align: center;
 	font-size: 3.827em;
-	margin-top: 0.1em;
-	margin-bottom: 0.2em;
+	margin-top: 0.2em;
+	margin-bottom: 0.1em;
 	font-weight: 2px;
 }
 
@@ -206,9 +209,6 @@ td {
 	margin-left: 13px;
 	padding-top: 23px;
 	padding-bottom: 20px;
-	border-bottom: 4px solid;
-	border-top: 4px solid;
-	border-color: #ffdd03;
 }
 
 .container {
@@ -236,9 +236,6 @@ td {
 	margin: 20px auto 20px auto;
 	padding-left: 20px;
 	padding-right: 20px;
-	border-right: 4px solid;
-	border-left: 4px solid;
-	border-color: #ffdd03;
 }
 
 .announcement {
@@ -246,9 +243,6 @@ td {
 	margin: 20px auto 20px auto;
 	padding-left: 20px;
 	padding-right: 20px;
-	border-right: 4px solid;
-	border-left: 4px solid;
-	border-color: #ffdd03;
 }
 
 .alzone-campaign {
