@@ -113,7 +113,7 @@ h3 {
 	margin-top: 0;
 	margin-bottom: 0.5em;
 	text-align: center;
-	border-top: 3px solid;
+	/* border-top: 3px solid; */
 	border-color: #ffdd03;
 	padding-top: 0.7em;
 }
@@ -288,7 +288,7 @@ td {
 
 .style-fart {
 	display: block;
-	margin: 10px auto 7px auto;
+	margin: 10px auto 5px auto;
 }
 
 	
