@@ -10,8 +10,8 @@
 	
 	/*------ MAIN STYLING ------*/
 body {		
-		/* max-width: 780px;
-		width: 100%; */
+		max-width: 780px;
+		width: 100%; 
 		margin: auto;
 		background: #f4f4f4;
 		color: #333;
