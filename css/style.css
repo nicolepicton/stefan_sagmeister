@@ -295,6 +295,7 @@ td {
 
 figcaption {
 	display: block;
+	text-align: below;
 }
 
 	
