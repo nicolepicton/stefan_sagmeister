@@ -9,7 +9,7 @@
 	
 	
 	/*------ MAIN STYLING ------*/
-body {		
+/* body {		
 		max-width: 780px;
 		width: 100%; 
 		margin: auto;
@@ -17,10 +17,10 @@ body {
 		color: #333;
 		font-family: 'gameli-mono', serif;
 		padding-top: 70px;
-	}
+	} */
 
 	
-/* main {		
+ main {		
 		max-width: 780px;
 		width: 100%;
 		margin: auto;
@@ -28,7 +28,7 @@ body {
 		color: #333;
 		font-family: 'gameli-mono', serif;
 		padding-top: 70px;
-	} */
+	} 
 	
 
 header {
