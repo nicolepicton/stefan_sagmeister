@@ -1,0 +1,296 @@
+/*------ CSS Reset ------*/
+
+* {
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	line-height: 1em;
+	}
+	
+	
+	/*------ MAIN STYLING ------*/
+	
+ main {		
+		max-width: 780px;
+		width: 100%;
+		margin: auto;
+		font-family: 'gameli-mono', serif;
+		padding-top: 70px;
+	} 
+	
+
+header {
+	padding-top: 1em;
+}
+
+.bibliography {
+	background: #ffdd03;
+	width: 100%;
+	padding-top: 5px;
+}
+	
+	/*---- INTRO ----*/
+.intro-container {
+	display: block;
+	border-left: 5px solid;
+	border-color: #ffdd03;
+}
+
+.intro {
+	padding-left: 30px;
+	padding-right: 30px;
+} 
+	
+	/*---- TYPOGRAPHY ---*/
+ h1 {
+	font-family: 'gemeli-mono', serif;
+	font-weight: 400;
+	font-style: normal;
+	text-align: center;
+	font-size: 3.827em;
+	margin-top: 0.2em;
+	margin-bottom: 0.1em;
+	font-weight: 2px;
+}
+
+.exhibitionist {
+	margin-bottom: 0.6em;
+}
+
+h2 {
+	font-weight: normal;
+	text-align: center;
+	font-family: 'gemeli-mono', serif;
+	font-size: 2.4em;
+	margin-bottom: 0.5em;
+	border-bottom: 3px solid;
+	border-color: #ffdd03;
+	padding-bottom: 0.2em;
+	padding-top: 70px;
+}
+
+blockquote p {
+	font-size: 1.9em;
+	color: #333;
+	font-family: 'gemeli-mono', serif;
+	text-align: center;
+	text-indent: -0.6em;
+	padding-left: 15px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	margin-top: 1em;
+	margin-left: 20px;
+	margin-right: 10px;
+	border-left: 8px solid;
+	border-color: #ffdd03;
+}
+blockquote cite {
+		font-family: 'gemeli-mono', serif;
+		color: #666a67;
+		text-align: left;
+		font-size: 1em;
+		padding-bottom: 2em;
+		padding-top: 0.1em;
+		margin-left: 3em;
+		font-style: italic;
+}
+
+
+blockquote {
+padding-bottom: 1.5em;
+}
+
+p {
+	font-size: 18px;
+	font-family: 'gemeli-mono', serif;
+	line-height: 1.4;
+	margin-bottom: 0.8em;
+	padding-top: 0.2em;
+}
+
+h3 {
+	font-size: 22px;
+	font-family: 'gemeli-mono', serif;
+	margin-top: 0;
+	margin-bottom: 0.5em;
+	text-align: center;
+	/* border-top: 3px solid; */
+	border-color: #ffdd03;
+	/* padding-top: 0.7em; */
+}
+
+li {
+	font-family: 'gemeli-mono', serif;
+	margin-bottom: 0.2em;
+	line-height: 1.2
+}
+
+	
+
+section.conclusion {
+	margin-bottom: 3em;
+}
+/*------ NAVIGATION ------*/
+nav {
+	position: fixed;
+	top: 0;	
+	left: 0;
+	margin: 0;
+	width: 100%;
+	background-color: #000000;
+	opacity: 0.6;
+	padding: 1.5em 0;
+	font-size: 0.9em;
+	clear: both;
+}
+nav ul {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+nav ul li {
+	display: inline;
+	margin: 20px;
+	background: none;
+}
+
+nav a {
+	color: #fdfdfd;
+}
+
+nav a:visited {
+    color: #fdfdfd;
+}
+
+nav a:hover {
+	border-bottom: 1px dotted;
+	color: #ffdd03;
+	transition: all 0.3s ease-in-out;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 12px 14px;
+  text-decoration: none;
+  display: inline;
+}
+
+
+/*---- BIBLIOGRAPHY ----*/
+
+.bibliography {
+	margin-top: 50px;
+	width: 100%;
+	padding-top: 7px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+table {
+    margin: auto;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 5px;
+    width: 100%;
+	font-size: 80%;
+	font-family: 'gemeli-mono', serif;
+}
+
+td {
+	padding: 0.6em;
+	line-height: 1em;
+	margin-bottom: 0.5em;
+}
+
+
+/*---- IMAGES ----*/
+
+.sagmeister {
+	display: block;
+	margin: 20px auto 30px auto;
+}
+
+.four-as {
+	float: right;
+	margin-left: 13px;
+	padding-top: 23px;
+	padding-bottom: 20px;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: auto auto;
+	padding: 10px;
+}
+
+.left_image_container {
+	display: grid;
+	grid-template-columns: auto;
+	justify-content: center;
+	padding: 10px;
+}
+
+.right_image_container {
+	display: grid;
+	grid-template-columns: auto;
+	justify-content: center;
+	padding: 10px;
+}
+
+.aiga {
+	display: block;
+	margin: 20px auto 20px auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.announcement-poster {
+	display: block;
+	margin: 20px auto 20px auto;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.alzone-campaign {
+	display: block;
+	margin: 20px auto 20px auto;
+}
+
+.lou-container {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.mid-image-container {
+	padding-right: 2em;
+}
+
+.left-image-container {
+	padding-top: 4em;
+}
+
+.right-image-container {
+	padding-top: 4em;
+	padding-left: 2em;
+}
+
+.happyfilmposter {
+	display: block;
+	margin: 20px auto 20px auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-right: 4px solid;
+	border-left: 4px solid;
+	border-color: #ffdd03;
+}
+
+.style-fart {
+	display: block;
+	margin: 10px auto 5px auto;
+}
+
+	
