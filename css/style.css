@@ -293,4 +293,8 @@ td {
 	margin: 10px auto 5px auto;
 }
 
+figcaption {
+	display: block;
+}
+
 	
