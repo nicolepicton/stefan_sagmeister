@@ -293,9 +293,13 @@ td {
 	margin: 10px auto 5px auto;
 }
 
-figcaption {
-	display: block;
-	text-align: below;
+figure {
+  border: 1px;
+  padding: 4px;
+  margin: auto;
 }
 
-	
+figcaption {
+  padding: 2px;
+  text-align: center;
+}
