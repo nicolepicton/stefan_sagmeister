@@ -300,6 +300,7 @@ figure {
 }
 
 figcaption {
+	float: right;
   padding: 2px;
   text-align: center;
 }
